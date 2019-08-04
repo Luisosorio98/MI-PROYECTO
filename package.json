@@ -1,26 +1,27 @@
 {
-  "name": "Sistema",
-  "description": "",
+  "name": "MI-PROYECTO",
   "version": "1.0.0",
+  "description": "",
   "main": "index.js",
+  "bin": {
+    "MI-PROYECTO": "controller.js"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon node intex.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jeancarlos006/Sistema.git"
+    "url": "git+https://github.com/Luisosorio98/MI-PROYECTO.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/jeancarlos006/Sistema/issues"
+    "url": "https://github.com/Luisosorio98/MI-PROYECTO/issues"
   },
-  "homepage": "https://github.com/jeancarlos006/Sistema#readme",
+  "homepage": "https://github.com/Luisosorio98/MI-PROYECTO#readme",
   "dependencies": {
     "express": "^4.17.1",
-    "mongoose": "^5.6.7",
-    "nodemon": "^1.19.1"
+    "mongoose": "^5.6.8"
   }
 }
