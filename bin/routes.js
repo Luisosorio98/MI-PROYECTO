@@ -17,6 +17,20 @@ app.get("/actividades", (req, res) => {
     controller.getactividades(res);
 })
 
+app.get("/evaluaciones", (req, res) => {
+
+    controller.getevaluaciones(res);
+})
+
+app.get("/programas", (req, res) => {
+
+    controller.getprogramas(res);
+})
+
+app.get("/temas", (req, res) => {
+
+    controller.gettemas(res);
+})
 
 app.post("/users", (req, res) => {
     controller.postUsers(req, res)
@@ -27,6 +41,17 @@ app.post("/actividades", (req, res) => {
     controller.postActividad(req, res)
 })
 
+app.post("/evaluaciones", (req, res) => {
+    controller.postEvaluacion(req, res)
+})
+
+app.post("/programas", (req, res) => {
+    controller.postPrograma(req, res)
+})
+
+app.post("/temas", (req, res) => {
+    controller.postTema(req, res)
+})
 
 /* TODOS LOS USUARIOS ADSCRITOS A UN PROGRAMA*/
 app.get("/usuarios/:id_programa", (req, res) => {
