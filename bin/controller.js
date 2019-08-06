@@ -36,7 +36,8 @@ class controller {
 
 
     postUsers(req, res) {
-        let user = req.boddy.users;
+        let user = req.boddy;
+
         User.create(user, (err, newUser) => {
             if (err) throw err;
             res.send({ nU: newUser })
