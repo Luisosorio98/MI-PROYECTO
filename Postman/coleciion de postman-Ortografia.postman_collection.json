@@ -1,0 +1,174 @@
+{
+	"id": "236a8f50-346a-e310-7c99-91b62dcfbdde",
+	"name": "Rutas de prueba",
+	"description": "",
+	"order": [
+		"e62e4705-f38d-1ecd-bcfc-879c6c4b95a8",
+		"e4411270-4a6f-3615-534f-5949ffb1cad5",
+		"e6ac111d-21a0-4c41-ca43-4ad90db883b9",
+		"27b04ba9-5097-8a78-2b88-3882dba6172d",
+		"e61be788-5454-2f77-992b-feb6f8827a6d"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1565119975506,
+	"owner": 0,
+	"public": false,
+	"requests": [
+		{
+			"id": "27b04ba9-5097-8a78-2b88-3882dba6172d",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "https://3000-df200c6b-3bb6-4a68-b087-13472cbdbae6.ws-us0.gitpod.io/actividades",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "236a8f50-346a-e310-7c99-91b62dcfbdde",
+			"data": [],
+			"dataMode": "raw",
+			"name": "actividades",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1565125603862,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\n\t\"user\":{\n\t\t\"nickname\":\"kikret\",\n\t\t\"password\":\"12356567\",\n\t\t\"picture\":\"kikret.jpg\"\n\t}\n}\n"
+		},
+		{
+			"id": "e4411270-4a6f-3615-534f-5949ffb1cad5",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "https://3000-e2c1bf3c-5b22-474b-b5c5-f21c1b2f81be.ws-us0.gitpod.io/usuarios/6768",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "236a8f50-346a-e310-7c99-91b62dcfbdde",
+			"data": [],
+			"dataMode": "raw",
+			"name": "User",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1565120278799,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\n\t\"user\":{\n\t\t\"nickname\":\"kikret\",\n\t\t\"password\":\"12356567\",\n\t\t\"picture\":\"kikret.jpg\"\n\t}\n}\n"
+		},
+		{
+			"id": "e61be788-5454-2f77-992b-feb6f8827a6d",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "https://3000-df200c6b-3bb6-4a68-b087-13472cbdbae6.ws-us0.gitpod.io/usuarios/3345",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "236a8f50-346a-e310-7c99-91b62dcfbdde",
+			"data": [],
+			"dataMode": "raw",
+			"name": "usuarios",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1565125769232,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\n\t\"user\":{\n\t\t\"nickname\":\"kikret\",\n\t\t\"password\":\"12356567\",\n\t\t\"picture\":\"kikret.jpg\"\n\t}\n}\n"
+		},
+		{
+			"id": "e62e4705-f38d-1ecd-bcfc-879c6c4b95a8",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "https://3000-e2c1bf3c-5b22-474b-b5c5-f21c1b2f81be.ws-us0.gitpod.io/users",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "236a8f50-346a-e310-7c99-91b62dcfbdde",
+			"data": [],
+			"dataMode": "raw",
+			"name": "mostrar usuarios",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1565119981220,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\n\t\"user\":{\n\t\t\"nickname\":\"kikret\",\n\t\t\"password\":\"12356567\",\n\t\t\"picture\":\"kikret.jpg\"\n\t}\n}\n"
+		},
+		{
+			"id": "e6ac111d-21a0-4c41-ca43-4ad90db883b9",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "https://3000-e2c1bf3c-5b22-474b-b5c5-f21c1b2f81be.ws-us0.gitpod.io/actividades",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "236a8f50-346a-e310-7c99-91b62dcfbdde",
+			"data": [],
+			"dataMode": "raw",
+			"name": "actividades",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1565124838433,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\n\t\"user\":{\n\t\t\"nickname\":\"kikret\",\n\t\t\"password\":\"12356567\",\n\t\t\"picture\":\"kikret.jpg\"\n\t}\n}\n"
+		}
+	]
+}
